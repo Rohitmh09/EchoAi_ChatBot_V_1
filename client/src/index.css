@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scrollbar-width:thin;
+    scroll-behavior: smooth;
+    scrollbar-color: #888 #f1f1f1; /* Scrollbar thumb and track color */
+  }
+  

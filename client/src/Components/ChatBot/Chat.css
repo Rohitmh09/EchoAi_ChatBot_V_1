@@ -1,0 +1,20 @@
+/* Hide scrollbar */
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .hide-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  .chat-container {
+    height: calc(100vh - 70px); /* Assuming 64px is the height of your navbar */
+    
+  }
+  .scroll-slim
+  {
+    scrollbar-width:thin;
+    scroll-behavior: smooth;
+    scrollbar-color: #888 #f1f1f1; /* Scrollbar thumb and track color */
+  }
+  
